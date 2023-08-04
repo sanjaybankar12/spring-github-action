@@ -37,6 +37,7 @@ jobs:
       - name: Build and push docker image
         uses: docker/build-push-action@v4
         with:
+          image: sanjaybankar12/spring-git-action
           tags: latest
           push: true
         
