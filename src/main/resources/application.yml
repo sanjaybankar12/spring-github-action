@@ -1,0 +1,21 @@
+server:
+  users:
+    - Sam
+    - Adi
+    - Ravi
+  employees:
+    contract:
+      id: 1
+      name: Adi
+      dept: IT
+    permanent:
+      id: 2
+      name: Sam
+      dept: ETC
+  userlist:
+    root:
+      username: sam123
+      password: pass123
+    admin:
+      username: adi123
+      password: pass234
